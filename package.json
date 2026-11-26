@@ -1,0 +1,22 @@
+{
+  "name": "ni-bulk-serial-search",
+  "version": "1.0.0",
+  "description": "NI Bulk Serial Search custom Power BI visual",
+  "scripts": {
+    "build": "pbiviz package"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0",
+    "powerbi-models": "^1.13.0",
+    "powerbi-visuals-api": "~5.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "powerbi-visuals-tools": "^5.4.0",
+    "typescript": "~5.3.0",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.0"
+  }
+}
