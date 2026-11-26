@@ -15,7 +15,7 @@
     "email": ""
   },
   "assets": {
-    "icon": "assets/icon.png"
+    "icon": "icon.png"
   },
   "externalJS": [],
   "style": "style/visual.less",
