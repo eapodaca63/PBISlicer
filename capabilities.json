@@ -1,0 +1,25 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Serial Number (Optional)",
+      "name": "serialNumber",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "serialNumber": { "min": 0, "max": 1 }
+        }
+      ],
+      "categorical": {
+        "categories": {
+          "for": { "in": "serialNumber" }
+        }
+      }
+    }
+  ],
+  "privileges": [],
+  "objects": {}
+}
